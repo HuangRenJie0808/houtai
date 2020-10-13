@@ -1,0 +1,2 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["chunk-2d0f0615"],{"9bb8":function(n,e,t){"use strict";t.r(e);var c=function(){var n=this,e=n.$createElement,t=n._self._c||e;return t("div",[n._v(" 商品列表 ")])},u=[],o={name:"",data:function(){return{}},created:function(){},mounted:function(){},methods:{}},a=o,r=t("2877"),i=Object(r["a"])(a,c,u,!1,null,"2be9839c",null);e["default"]=i.exports}}]);
+//# sourceMappingURL=chunk-2d0f0615.f784aa48.js.map
