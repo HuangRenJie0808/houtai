@@ -170,7 +170,8 @@ export default {
         url: `goods/${this.goodsForm.goods_id}`,
         params: this.goodsForm
       });
-      if (data.meta.status == 201) {
+      console.log(data);
+      if (data.meta.status == 200) {
         this.flag = false;
         this.goodFn();
         this.$message({
