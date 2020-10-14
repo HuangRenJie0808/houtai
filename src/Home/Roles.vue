@@ -132,7 +132,6 @@
       >
         <span class="custom-tree-node" slot-scope="{ node, data }">
           <span>{{data.authName }}</span>
-
         </span>
       </el-tree>
       <div slot="footer" class="dialog-footer">
@@ -182,7 +181,7 @@ export default {
       },
       flag: false, // 显示隐藏修改角色弹框
       jurFlag: false, // 显示隐藏修改权限弹框
-      jur:[]        // 修改角色弹框数据
+      jur: [] // 修改角色弹框数据
     };
   },
   methods: {
@@ -285,9 +284,9 @@ export default {
     // 分配权限
     async fen() {
       this.jurFlag = true;
-       let data = await rights('tree');
-       console.log(data);
-       this.jur = data.data
+      let data = await rights("tree");
+      console.log(data);
+      this.jur = data.data;
     }
   },
   created() {},
@@ -303,10 +302,11 @@ export default {
 }
 .el-row {
   margin-bottom: 20px;
-  &:last-child {
-    margin-bottom: 0;
-  }
 }
+.el-row:last-child {
+  margin-bottom: 0;
+}
+
 .el-col {
   border-radius: 4px;
 }

@@ -1,2 +1,0 @@
-(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["chunk-2d0c776d"],{5172:function(n,t,e){"use strict";e.r(t);var c=function(){var n=this,t=n.$createElement,e=n._self._c||t;return e("div",[n._v(" 分类参数 ")])},u=[],a={name:"",data:function(){return{}},created:function(){},mounted:function(){},methods:{}},o=a,d=e("2877"),r=Object(d["a"])(o,c,u,!1,null,"2d32ac57",null);t["default"]=r.exports}}]);
-//# sourceMappingURL=chunk-2d0c776d.d829c9ae.js.map

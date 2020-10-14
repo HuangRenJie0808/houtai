@@ -56,15 +56,30 @@ export const state = data => axios.put(`users/${data.uId}/state/${data.type}`)
 // 角色列表
 export const roles = data => get('roles', data)
 // 添加角色
-export const addroles = data => post('roles',data)
+export const addroles = data => post('roles', data)
 // 删除角色
 export const delList = data => axios.delete(data)
 // 查询角色id
 export const queryList = data => get(data)
 // 修改当前角色
-export const isEditLiseEd = data => axios.put(`roles/${data.roleId}`,data)
+export const isEditLiseEd = data => axios.put(`roles/${data.roleId}`, data)
 // --------- rights:权限列表 ----------
 // 权限列表
-export const rights = data => get(`rights/${data}`)
 // 分配权限
-// export const rights = data => get(`rights/${data}`)  
+export const rights = data => get(`rights/${data}`)
+// echarts图标数据获取
+export const echarts = data => get('reports/type/1')
+// ----------- goods:商品列表　 -----------
+// 渲染商品列表
+export const goods = data => get('goods', data)
+// 删除商品
+export const goodsDel = data => axios.delete(data)
+// 查询商品
+export const goodsQuery = data => get(data)
+// 修改商品
+export const goodsPut = data => axios.put(data.url, data.params)
+// ---------- orders:订单列表  -----------
+// 订单数据
+export const orders = data => get('orders', data)
+// 查看物流信息
+// export const kuaidi = data => get(data)
